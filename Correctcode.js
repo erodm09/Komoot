@@ -12,5 +12,4 @@ const checkForText = async (url, text) => {
         console.error(`Error fetching or processing data: ${error}`);
     }
 }
-
 checkForText('https://www.komoot.com/team', 'Quality');
